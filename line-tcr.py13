@@ -9,7 +9,7 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(qr=True) 
 cl.loginResult()
 
 ki = LINETCR.LINE()
@@ -36,7 +36,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""Bot v2.1      
-  
+  คำสั่ง
 👊[Id]: ~÷~
 👊[Mid]: ~÷~
 👊[All mid]:
@@ -59,7 +59,7 @@ helpMessage ="""Bot v2.1
 👊[Ban]: "Add blacklist"
 👊[Unban]: "Dalate blacklist"
 👊[Banlist]: "Check blacklist"
-
+Sty
 -⚠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
 👊[Contact: on/off]: 
 👊[Auto join: on/off]: 
@@ -83,7 +83,7 @@ helpMessage ="""Bot v2.1
 👊[Gn: "name"]: "Change name Group"
 👊[NK: "Name"]: ~÷~
 👊[Dead]: "Kick Blacklist"
-
+T2
 """
 helpMessage2 ="""-⚠™ -
 
